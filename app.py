@@ -11,14 +11,14 @@ from utils import format_link, truncate_text
 
 # Configuração da página
 st.set_page_config(
-    page_title="Agregador de Notícias",
+    page_title="Notícias",
     page_icon="📰",
     layout="wide"
 )
 
 # Título e descrição
-st.title("📰 Agregador de Notícias")
-st.markdown("Agregador de notícias em tempo real de várias fontes e categorias.")
+st.title("📰 Notícias")
+st.markdown("Notícias em tempo real de várias fontes e categorias.")
 
 # Barra lateral
 st.sidebar.title("Controles")
